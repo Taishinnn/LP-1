@@ -53,8 +53,7 @@ main {
 main .mainvisual {
   height: 420px;
   background-image: url(img/mainvisual-pc.jpg);
-  -o-object-fit: contain;
-     object-fit: contain;
+  background-size: 100%;
   margin-bottom: 85px;
 }
 
@@ -196,7 +195,7 @@ footer p {
     width: 100%;
   }
   main button {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */

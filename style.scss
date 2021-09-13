@@ -40,7 +40,7 @@ main {
   .mainvisual {
     height: 420px;
     background-image:url(img/mainvisual-pc.jpg);
-    object-fit: contain;
+    background-size: 100%;
     margin-bottom: 85px;
     }
 
