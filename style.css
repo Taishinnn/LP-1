@@ -1,0 +1,202 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 122px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header h1 {
+  margin-left: 100px;
+  font-size: 27px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+  list-style: none;
+  float: right;
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+header li {
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:visited {
+  color: inherit;
+}
+
+header a:hover {
+  opacity: 0.6;
+}
+
+header img {
+  width: 50px;
+}
+
+main {
+  text-align: center;
+  margin-top: 110px;
+}
+
+main .mainvisual {
+  height: 420px;
+  background-image: url(img/mainvisual-pc.jpg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 85px;
+}
+
+main section {
+  margin: 0 5% 0 5%;
+}
+
+main .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 63px;
+}
+
+main .text {
+  margin-bottom: 100px;
+  font-size: 14px;
+}
+
+main .contents ul {
+  height: 100%;
+}
+
+main ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main li {
+  width: 30%;
+  padding-right: 1%;
+  padding-bottom: 30px;
+}
+
+main dl {
+  border-bottom: 1px solid rgba(95, 94, 94, 0.5);
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+main dt {
+  border-top: 1px solid rgba(95, 94, 94, 0.5);
+  padding: 15px 15px 0 20px;
+}
+
+main dd {
+  padding: 0 15px 15px 20px;
+}
+
+main #contact {
+  margin-top: 120px;
+}
+
+main .contact {
+  margin-bottom: 30px;
+}
+
+main input {
+  width: 83%;
+  height: 35px;
+  float: right;
+  opacity: 0.5;
+}
+
+main textarea {
+  width: 83%;
+  float: right;
+  opacity: 0.5;
+}
+
+main .clear {
+  clear: both;
+}
+
+main .button_wrapper {
+  text-align: center;
+  padding: 40px;
+}
+
+main button {
+  padding: 15px 90px 15px 90px;
+  margin-bottom: 90px;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  padding: 10px 0 10px 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    display: block;
+    margin: 5% 15% 5% 15%;
+  }
+  header h1 {
+    margin: 0;
+    padding-bottom: 18px;
+    text-align: center;
+  }
+  header li {
+    font-size: 13px;
+    margin-right: 20px;
+    padding-bottom: 15px;
+  }
+  header li:last-child {
+    margin-right: 0px;
+  }
+  header img {
+    width: 30px;
+    margin-top: -10px;
+  }
+  main {
+    margin-top: 30px;
+  }
+  main ul {
+    display: block;
+  }
+  main li {
+    width: 100%;
+  }
+  main #news {
+    margin-top: 60px;
+  }
+  main input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  main textarea {
+    width: 100%;
+  }
+  main button {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
